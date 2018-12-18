@@ -7,20 +7,35 @@ ModelImporter:
     100002: ClusterExplosion4:ClusterExplosion1
     100004: ClusterExplosion5:ClusterExplosion2
     100006: ClusterExplosion6:ClusterExplosion3
+    100008: ClusterExplosion:ClusterExplosion4:ClusterExplosion1
+    100010: ClusterExplosion:ClusterExplosion5:ClusterExplosion2
+    100012: ClusterExplosion:ClusterExplosion6:ClusterExplosion3
     400000: //RootNode
     400002: ClusterExplosion4:ClusterExplosion1
     400004: ClusterExplosion5:ClusterExplosion2
     400006: ClusterExplosion6:ClusterExplosion3
+    400008: ClusterExplosion:ClusterExplosion4:ClusterExplosion1
+    400010: ClusterExplosion:ClusterExplosion5:ClusterExplosion2
+    400012: ClusterExplosion:ClusterExplosion6:ClusterExplosion3
     2100000: lambert1
     2300000: ClusterExplosion4:ClusterExplosion1
     2300002: ClusterExplosion5:ClusterExplosion2
     2300004: ClusterExplosion6:ClusterExplosion3
+    2300006: ClusterExplosion:ClusterExplosion4:ClusterExplosion1
+    2300008: ClusterExplosion:ClusterExplosion5:ClusterExplosion2
+    2300010: ClusterExplosion:ClusterExplosion6:ClusterExplosion3
     3300000: ClusterExplosion4:ClusterExplosion1
     3300002: ClusterExplosion5:ClusterExplosion2
     3300004: ClusterExplosion6:ClusterExplosion3
+    3300006: ClusterExplosion:ClusterExplosion4:ClusterExplosion1
+    3300008: ClusterExplosion:ClusterExplosion5:ClusterExplosion2
+    3300010: ClusterExplosion:ClusterExplosion6:ClusterExplosion3
     4300000: ClusterExplosion4:ClusterExplosion1
     4300002: ClusterExplosion5:ClusterExplosion2
     4300004: ClusterExplosion6:ClusterExplosion3
+    4300006: ClusterExplosion:ClusterExplosion4:ClusterExplosion1
+    4300008: ClusterExplosion:ClusterExplosion5:ClusterExplosion2
+    4300010: ClusterExplosion:ClusterExplosion6:ClusterExplosion3
     7400000: Take 001
     9500000: //RootNode
   externalObjects: {}
@@ -95,7 +110,6 @@ ModelImporter:
     legStretch: 0.05
     feetSpacing: 0
     rootMotionBoneName: 
-    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
