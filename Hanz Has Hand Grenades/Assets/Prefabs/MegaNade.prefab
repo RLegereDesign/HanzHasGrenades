@@ -36,9 +36,13 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4109820738070762}
+  - component: {fileID: 114497138205126160}
+  - component: {fileID: 136802168339374688}
+  - component: {fileID: 135444119906893254}
+  - component: {fileID: 54209116044169252}
   m_Layer: 0
   m_Name: MegaNade
-  m_TagString: Untagged
+  m_TagString: Mega Nade
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -112,3 +116,64 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1151550624917106}
   m_Mesh: {fileID: 4300000, guid: a9883f970f7d9884d98f1f2009c7b36e, type: 3}
+--- !u!54 &54209116044169252
+Rigidbody:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1964591650327708}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0.25
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 112
+  m_CollisionDetection: 0
+--- !u!114 &114497138205126160
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1964591650327708}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f90039e92f357104999b0b6b94fe8f74, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  grenadeSpeed: 5000
+  countdown: 2
+  radius: 10
+  grenadeDamage: 10
+  player: {fileID: 0}
+  EnemyNum: 2
+  CamNumber: 1
+  Boom: {fileID: 0}
+  explode: {fileID: 1151550624917106}
+  blood: []
+--- !u!135 &135444119906893254
+SphereCollider:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1964591650327708}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 0
+  serializedVersion: 2
+  m_Radius: 40
+  m_Center: {x: 8.249992e-10, y: 0.9109625, z: -0.05499998}
+--- !u!136 &136802168339374688
+CapsuleCollider:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1964591650327708}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 1.547446
+  m_Height: 4.331145
+  m_Direction: 1
+  m_Center: {x: 0.000000001765969, y: 2.09, z: -0.03748369}

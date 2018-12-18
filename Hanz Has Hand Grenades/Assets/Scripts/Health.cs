@@ -2,6 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.UI;
+
+
 public class Health : MonoBehaviour {
 
 
@@ -10,6 +13,7 @@ public class Health : MonoBehaviour {
     public GameObject player;
     public GameObject Win;
     public TextMeshProUGUI health;
+    public Image p1HealthBarFill;
     private bool fuckedUp = false;
     public GameObject DeathCam;
 
@@ -31,6 +35,7 @@ public class Health : MonoBehaviour {
     {
 
         health.SetText("Health: " + playerHealth);
+        p1HealthBarFill.fillAmount = ((playerHealth) / 100);
 
 
         if (playerHealth <= 0)

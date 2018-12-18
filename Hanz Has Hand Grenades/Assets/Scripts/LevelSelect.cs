@@ -19,14 +19,14 @@ public class LevelSelect : MonoBehaviour {
     public void PlayLevel2 ()
     {
         //want: scene index ?? will be 3 ?? -> sample scene 2 (level 2), so +2?
-        //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2);
         //SceneManager.LoadScene("SampleScene2");
     }
 
     public void PlayLevel3()
     {
         //want: scene index ?? will be 4 ?? -> sample scene 3 (level 3), so +3?
-        //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 3);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 3);
         //SceneManager.LoadScene("SampleScene3");
     }
 

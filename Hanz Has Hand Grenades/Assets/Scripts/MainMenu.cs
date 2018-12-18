@@ -18,8 +18,8 @@ public class MainMenu : MonoBehaviour {
     public void PlayCredits()
     {
 
-        //want: scene index 4 -> credits, so +4
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 4);
+        //want: scene index 5 -> credits, so +5
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 5);
         //SceneManager.LoadScene("Credits");
 
     }
