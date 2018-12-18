@@ -1,16 +1,16 @@
 fileFormatVersion: 2
-guid: 9afb73656baf6a8438f5a6cbac1bc065
+guid: 6415bb3b9304d794d8851f0a2f565538
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
-    100000: Unbreakable6
+    100000: Unbreakable6duginto
     100002: //RootNode
-    400000: Unbreakable6
+    400000: Unbreakable6duginto
     400002: //RootNode
-    2100000: Unbreakable6Mat
-    2300000: Unbreakable6
-    3300000: Unbreakable6
-    4300000: Unbreakable6
+    2100000: Unbreakable6dugintoMat
+    2300000: Unbreakable6duginto
+    3300000: Unbreakable6duginto
+    4300000: Unbreakable6duginto
   externalObjects: {}
   materials:
     importMaterials: 1
