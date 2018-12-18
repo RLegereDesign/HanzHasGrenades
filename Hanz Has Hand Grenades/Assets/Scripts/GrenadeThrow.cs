@@ -71,9 +71,9 @@ public class GrenadeThrow : MonoBehaviour
             Mega = false;
         }
 
-        if (Input.GetAxis("DP" + stickstring) > 0)
+        if (Input.GetAxis("DP" + stickstring) > 0 && points > 2500)
         {
-            points -= 1100;
+            points -= 2500;
             Impact = false;
             Stick = false;
             Mega = true;

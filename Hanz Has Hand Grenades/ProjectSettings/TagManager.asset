@@ -18,6 +18,7 @@ TagManager:
   - Spikes
   - BarbedWire
   - GrenadeP2
+  - Music
   layers:
   - Default
   - TransparentFX

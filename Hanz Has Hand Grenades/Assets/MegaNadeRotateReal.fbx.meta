@@ -1,29 +1,19 @@
 fileFormatVersion: 2
-guid: 89d6f3877797dae48a0d42ca1e30aaa5
+guid: c3aba75d75054b7478dd874cce2aefd1
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
-    100000: //RootNode
-    100002: MegaExplosion1:MegaExplosion1
-    100004: MegaExplosion2:MegaExplosion2
-    100006: MegaExplosion3:MegaExplosion3
-    400000: //RootNode
-    400002: MegaExplosion1:MegaExplosion1
-    400004: MegaExplosion2:MegaExplosion2
-    400006: MegaExplosion3:MegaExplosion3
+    100000: joint1
+    100002: MegaNade:MegaNade
+    100004: //RootNode
+    400000: joint1
+    400002: MegaNade:MegaNade
+    400004: //RootNode
     2100000: lambert1
-    2300000: MegaExplosion1:MegaExplosion1
-    2300002: MegaExplosion2:MegaExplosion2
-    2300004: MegaExplosion3:MegaExplosion3
-    3300000: MegaExplosion1:MegaExplosion1
-    3300002: MegaExplosion2:MegaExplosion2
-    3300004: MegaExplosion3:MegaExplosion3
-    4300000: MegaExplosion1:MegaExplosion1
-    4300002: MegaExplosion2:MegaExplosion2
-    4300004: MegaExplosion3:MegaExplosion3
-    7400000: MegaBoom
+    4300000: MegaNade:MegaNade
+    7400000: MegaMovin
     9500000: //RootNode
-    11100000: //RootNode
+    13700000: MegaNade:MegaNade
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -44,7 +34,7 @@ ModelImporter:
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
     importConstraints: 0
-    animationCompression: 1
+    animationCompression: 3
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
@@ -53,17 +43,17 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: MegaBoom
+      name: MegaMovin
       takeName: Take 001
       firstFrame: 1
-      lastFrame: 10
+      lastFrame: 30
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 0
+      loopTime: 1
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
@@ -83,7 +73,7 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 3
+    globalScale: 1
     meshCompression: 0
     addColliders: 0
     importVisibility: 1
@@ -129,7 +119,7 @@ ModelImporter:
     hasExtraRoot: 1
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 1
+  animationType: 2
   humanoidOversampling: 1
   additionalBone: 0
   userData: 
