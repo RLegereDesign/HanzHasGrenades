@@ -47,6 +47,7 @@ public class TerrainHealth : MonoBehaviour
         if (other.gameObject.CompareTag("Grenade"))
         {
             TakeDamage(other.gameObject.GetComponent<GrenadeMove>().grenadeDamage);
+            other.gameObject.GetComponent<GrenadeMove>().Score();
 
             foreach (GameObject blood in blood)
             {
@@ -57,6 +58,24 @@ public class TerrainHealth : MonoBehaviour
             }
 
         }
+
+
+
+       /* if (other.gameObject.CompareTag("GrenadeP2"))
+        {
+            TakeDamage(other.gameObject.GetComponent<GrenadeMove>().grenadeDamage);
+
+            foreach (GameObject blood in blood)
+            {
+
+                var hurt = (GameObject)Instantiate(blood, new Vector3(transform.position.x, transform.position.y, transform.position.z), Random.rotation);
+
+
+            }
+
+        } */
+
+
 
         if (other.gameObject.CompareTag("Impact Grenade"))
         {

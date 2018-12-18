@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4341500835650486}
   - component: {fileID: 33870803410105816}
   - component: {fileID: 23588459115339862}
+  - component: {fileID: 64975074659620410}
   m_Layer: 0
   m_Name: BarbedSnow-0
   m_TagString: Untagged
@@ -111,4 +112,18 @@ MeshFilter:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1046197819768820}
+  m_Mesh: {fileID: 4300000, guid: 720c476f78be87b48a66132fa7c05902, type: 3}
+--- !u!64 &64975074659620410
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1046197819768820}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300000, guid: 720c476f78be87b48a66132fa7c05902, type: 3}

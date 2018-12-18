@@ -41,6 +41,7 @@ GameObject:
   - component: {fileID: 54936011971703772}
   - component: {fileID: 135995279914935290}
   - component: {fileID: 114228634777819186}
+  - component: {fileID: 111154685966171662}
   m_Layer: 0
   m_Name: Stick_GrenadeDOS2
   m_TagString: Grenade
@@ -385,6 +386,22 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!111 &111154685966171662
+Animation:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1703120715606118}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: e0e0474b08304a246842e1d5585668d4, type: 3}
+  m_Animations:
+  - {fileID: 0}
+  - {fileID: 7400000, guid: e0e0474b08304a246842e1d5585668d4, type: 3}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!111 &111589004404094476
 Animation:
   m_ObjectHideFlags: 1
@@ -431,6 +448,7 @@ MonoBehaviour:
   - {fileID: 1984550579086928, guid: 0190519cd7bac5b46a0d4798b9277ca4, type: 2}
   - {fileID: 1703551325139458, guid: 5db43cd406b8bec4c983e187b9fb24ba, type: 2}
   - {fileID: 1021965154092260, guid: 78bca563e0ed02d40bdb961a6e9e3c1f, type: 2}
+  RealPlayer: 2
 --- !u!135 &135995279914935290
 SphereCollider:
   m_ObjectHideFlags: 1

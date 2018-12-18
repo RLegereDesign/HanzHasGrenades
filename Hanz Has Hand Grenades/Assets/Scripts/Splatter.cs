@@ -12,6 +12,8 @@ public class Splatter : MonoBehaviour {
         rb = GetComponent<Rigidbody>();
 
         rb.AddForce(transform.forward * speed);
+
+        StartCoroutine("Suicide");
 		
 	}
 	
@@ -24,7 +26,7 @@ public class Splatter : MonoBehaviour {
 
     IEnumerator Suicide()
     {
-        yield return new WaitForSeconds(3);
+        yield return new WaitForSeconds(2);
         Destroy(gameObject);
     }
 

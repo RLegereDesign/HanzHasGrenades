@@ -448,6 +448,7 @@ MonoBehaviour:
   - {fileID: 1984550579086928, guid: 0190519cd7bac5b46a0d4798b9277ca4, type: 2}
   - {fileID: 1703551325139458, guid: 5db43cd406b8bec4c983e187b9fb24ba, type: 2}
   - {fileID: 1021965154092260, guid: 78bca563e0ed02d40bdb961a6e9e3c1f, type: 2}
+  RealPlayer: 1
 --- !u!135 &135321059022504466
 SphereCollider:
   m_ObjectHideFlags: 1

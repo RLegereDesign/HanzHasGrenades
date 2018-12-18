@@ -17,6 +17,7 @@ TagManager:
   - Grenade
   - Spikes
   - BarbedWire
+  - GrenadeP2
   layers:
   - Default
   - TransparentFX

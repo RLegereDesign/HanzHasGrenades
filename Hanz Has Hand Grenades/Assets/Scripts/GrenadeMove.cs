@@ -25,10 +25,16 @@ public class GrenadeMove : MonoBehaviour
 
     public GameObject[] blood;
 
+    public int RealPlayer;
+    private string Playa;
+
     private bool hitter = false;
+
+    
 
     void Start()
     {
+        Playa = RealPlayer.ToString();
         animato = GetComponent<Animator>();
 
         string playNum = EnemyNum.ToString();
@@ -136,6 +142,15 @@ public class GrenadeMove : MonoBehaviour
 
         Destroy(gameObject);
         yield return null;
+    }
+
+    public void Score()
+    {
+
+        
+        GameObject.Find("P" + Playa).GetComponent<GrenadeThrow>().points += grenadeDamage;
+       // GetComponent<GrenadeThrow>().points += grenadeDamage;
+
     }
 
 }

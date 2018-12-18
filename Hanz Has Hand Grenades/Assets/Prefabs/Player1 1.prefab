@@ -1656,6 +1656,8 @@ MonoBehaviour:
   grenadeSpawnPoint: {fileID: 4878836265556070}
   fireRate: 1
   stickNumber: 1
+  points: 0
+  PlayerPts: {fileID: 0}
 --- !u!114 &114415235808038382
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1691,6 +1693,8 @@ MonoBehaviour:
   player: {fileID: 1201236812486414}
   Win: {fileID: 0}
   health: {fileID: 0}
+  p1HealthBarFill: {fileID: 0}
+  DeathCam: {fileID: 0}
 --- !u!114 &114441059368556796
 MonoBehaviour:
   m_ObjectHideFlags: 1

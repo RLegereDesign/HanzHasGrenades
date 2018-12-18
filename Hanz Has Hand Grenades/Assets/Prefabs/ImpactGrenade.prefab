@@ -152,6 +152,7 @@ MonoBehaviour:
   Boom: {fileID: 0}
   explode: {fileID: 1774132665547538}
   blood: []
+  RealPlayer: 1
 --- !u!135 &135035393099715496
 SphereCollider:
   m_ObjectHideFlags: 1

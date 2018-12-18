@@ -27,9 +27,15 @@ public class ImpactGrenadeMove : MonoBehaviour
 
     private bool hitter = false;
 
+    public int RealPlayer;
+    private string Playa;
+
     void Start()
     {
-        //animato = GetComponent<Animator>();
+
+        Playa = RealPlayer.ToString();
+
+        animato = GetComponent<Animator>();
 
         string playNum = EnemyNum.ToString();
         cam = GameObject.Find("Camera" + CamNumber).GetComponent<Camera>();
@@ -72,8 +78,15 @@ public class ImpactGrenadeMove : MonoBehaviour
 
         }
 
-        Boom.enabled = !Boom.enabled;
+        if (animato.enabled == true)
+        {
+            animato.enabled = !animato.enabled;
+
+        }
         explode.SetActive(true);
+
+        //Boom.enabled = !Boom.enabled;
+       // explode.SetActive(true);
         //Debug.Log("WOW BOOM");
 
         StartCoroutine("Explosion");
@@ -134,12 +147,23 @@ public class ImpactGrenadeMove : MonoBehaviour
         //yield return new WaitForSeconds(countdown);
 
         // yield return new WaitForSeconds(1);
+        Boom.enabled = !Boom.enabled;
+        explode.SetActive(true);
 
-        yield return new WaitForSeconds(0.1f);
+        yield return new WaitForSeconds(1);
 
         //Debug.Log("WOW DESTROYED");
         Destroy(gameObject);
         yield return null;
+
+    }
+
+    public void Score()
+    {
+
+
+        GameObject.Find("P" + Playa).GetComponent<GrenadeThrow>().points += grenadeDamage;
+        // GetComponent<GrenadeThrow>().points += grenadeDamage;
 
     }
 

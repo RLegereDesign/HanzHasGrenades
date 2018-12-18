@@ -27,9 +27,15 @@ public class MeganadeMove : MonoBehaviour
 
     private bool hitter = false;
 
+    public int RealPlayer;
+    private string Playa;
+
     void Start()
     {
-        //animato = GetComponent<Animator>();
+
+        Playa = RealPlayer.ToString();
+
+        animato = GetComponent<Animator>();
 
         string playNum = EnemyNum.ToString();
         cam = GameObject.Find("Camera" + CamNumber).GetComponent<Camera>();
@@ -72,13 +78,13 @@ public class MeganadeMove : MonoBehaviour
 
         }
 
-        /*
+       
         if (animato.enabled == true)
         {
             animato.enabled = !animato.enabled;
 
         }
-        */
+        
     }
     private void OnTriggerEnter(Collider other)
     {
@@ -138,6 +144,15 @@ public class MeganadeMove : MonoBehaviour
 
         Destroy(gameObject);
         yield return null;
+    }
+
+    public void Score()
+    {
+
+
+        GameObject.Find("P" + Playa).GetComponent<GrenadeThrow>().points += grenadeDamage;
+        // GetComponent<GrenadeThrow>().points += grenadeDamage;
+
     }
 
 }
