@@ -8,6 +8,7 @@ ModelImporter:
     400000: SnowVER2.3-1
     400002: //RootNode
     2100000: palette
+    2100002: SnowVER2.3-1Mat
     2300000: SnowVER2.3-1
     3300000: SnowVER2.3-1
     4300000: SnowVER2.3-1
@@ -83,6 +84,7 @@ ModelImporter:
     legStretch: 0.05
     feetSpacing: 0
     rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
