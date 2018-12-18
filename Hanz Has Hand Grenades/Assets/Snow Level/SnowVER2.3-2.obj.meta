@@ -5,13 +5,19 @@ ModelImporter:
   fileIDToRecycleName:
     100000: SnowVER2.3-2
     100002: //RootNode
+    100004: DirtSNOWV2.3-2
     400000: SnowVER2.3-2
     400002: //RootNode
+    400004: DirtSNOWV2.3-2
     2100000: palette
     2100002: SnowVER2.3-2Mat
+    2100004: DirtSNOWV2.3-2Mat
     2300000: SnowVER2.3-2
+    2300002: DirtSNOWV2.3-2
     3300000: SnowVER2.3-2
+    3300002: DirtSNOWV2.3-2
     4300000: SnowVER2.3-2
+    4300002: DirtSNOWV2.3-2
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -84,7 +90,6 @@ ModelImporter:
     legStretch: 0.05
     feetSpacing: 0
     rootMotionBoneName: 
-    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1

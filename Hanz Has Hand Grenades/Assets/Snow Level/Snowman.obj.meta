@@ -1,23 +1,16 @@
 fileFormatVersion: 2
-guid: b85cea4f577605b4cb5df8b6b8e47517
+guid: 6e62ad46833cf954ea4f101077f41ce4
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
-    100000: DirtSnowV2.3-2
+    100000: Snowman
     100002: //RootNode
-    100004: DirtSNOWV2.3-2
-    400000: DirtSnowV2.3-2
+    400000: Snowman
     400002: //RootNode
-    400004: DirtSNOWV2.3-2
-    2100000: palette
-    2100002: DirtSnowV2.3-2Mat
-    2100004: DirtSNOWV2.3-2Mat
-    2300000: DirtSnowV2.3-2
-    2300002: DirtSNOWV2.3-2
-    3300000: DirtSnowV2.3-2
-    3300002: DirtSNOWV2.3-2
-    4300000: DirtSnowV2.3-2
-    4300002: DirtSNOWV2.3-2
+    2100000: SnowmanMat
+    2300000: Snowman
+    3300000: Snowman
+    4300000: Snowman
   externalObjects: {}
   materials:
     importMaterials: 1
