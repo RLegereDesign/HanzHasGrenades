@@ -1,16 +1,16 @@
 fileFormatVersion: 2
-guid: 720c476f78be87b48a66132fa7c05902
+guid: e7c5765eeb1b7194e9a0aaa9bb776b30
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
-    100000: BarbedSnow-0
+    100000: SnowVER2.3-2
     100002: //RootNode
-    400000: BarbedSnow-0
+    400000: SnowVER2.3-2
     400002: //RootNode
-    2100000: BarbedSnow-0Mat
-    2300000: BarbedSnow-0
-    3300000: BarbedSnow-0
-    4300000: BarbedSnow-0
+    2100000: palette
+    2300000: SnowVER2.3-2
+    3300000: SnowVER2.3-2
+    4300000: SnowVER2.3-2
   externalObjects: {}
   materials:
     importMaterials: 1
